@@ -1,0 +1,55 @@
+@font-face {
+    font-family:SovietProgram;
+    src: url('../fonte/soviet_program/SovietProgram.ttf')
+}
+:root {
+    --fonte_principal: SovietProgram;
+}
+    body {
+        background-color: fuchsia;
+        width: 500px;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: var(--fonte_principal);
+
+    }
+
+    h1 {
+        color: #ffffff;
+    }
+
+    body p {
+        color: #ffff00;
+    }
+
+    ul li a {
+        color: gold;
+        text-decoration: none;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+p {
+    text-align: center;
+    font-family: var(--fonte_principal)
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+div.imagem {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+img {
+    border-radius: 50%
+}
